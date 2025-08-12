@@ -147,15 +147,6 @@ Open your browser and navigate to: **http://localhost:8080**
 2. **Ask Questions** - Use natural language to query the Marvel knowledge graph
 3. **View Results** - Get natural language responses with optional technical details
 
-### Example Queries
-
-- "Who are Spider-Man's partners?"
-- "Which Avengers have fought together?"
-- "How many Avengers partnerships are there?"
-- "Find Captain America"
-- "Who are Iron Man's partners?"
-- "How many Avengers are partners with Spider-Man?"
-
 ## 🏗️ Project Structure
 
 ```
