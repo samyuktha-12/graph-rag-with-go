@@ -1,6 +1,8 @@
 # 🤖 Marvel Comics Graph RAG with Go
 <img width="1709" height="988" alt="image" src="https://github.com/user-attachments/assets/3ba2ec30-1bac-4bec-9393-c69daddbb4c8" />
 
+<br>
+
 
 A **Retrieval-Augmented Generation (RAG)** system that combines **Neo4j Graph Database** with **LLM-powered natural language queries** to explore Marvel Comics character relationships and partnerships.
 
