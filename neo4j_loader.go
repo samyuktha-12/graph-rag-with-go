@@ -14,7 +14,7 @@ import (
 
 func loadDataToNeo4j() {
 	// 1. Connect to Neo4j
-	driver, err := neo4j.NewDriver("bolt://localhost:7687", neo4j.BasicAuth("neo4j", "", ""))
+	driver, err := neo4j.NewDriver("bolt://localhost:7687", neo4j.BasicAuth("neo4j", "Samyuktha@12", ""))
 	if err != nil {
 		log.Fatalf("Failed to create driver: %v", err)
 	}
