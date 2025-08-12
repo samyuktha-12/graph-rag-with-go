@@ -56,7 +56,7 @@ ollama pull llama3.2
 2. **Access Neo4j Browser:**
    - Open: http://localhost:7474
    - Default credentials: `neo4j` / `neo4j`
-   - Change password to: `Samyuktha@12`
+   - Change password to: `YOUR PASSWORD`
 
 3. **Restart Neo4j with new credentials:**
    ```bash
