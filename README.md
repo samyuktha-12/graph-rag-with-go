@@ -206,3 +206,31 @@ graph-rag-with-go/
 - `POST /api/query` - Process natural language queries
 - `GET /api/status` - Check system status
 - `POST /api/load-data` - Load datasets into Neo4j
+
+
+## 🔍 Troubleshooting
+
+### Common Issues
+
+1. **Neo4j Connection Failed**
+   - Ensure Neo4j is running: `brew services list | grep neo4j`
+   - Check credentials in the code
+   - Verify port 7687 is accessible
+
+2. **LLM Model Not Found**
+   - Install Ollama: `brew install ollama`
+   - Pull the model: `ollama pull llama3.2`
+   - Check Ollama service: `ollama serve`
+
+3. **Data Loading Issues**
+   - Verify dataset files are in the correct location
+   - Check file permissions
+   - Ensure Neo4j has write access
+
+### Debug Mode
+
+Enable debug logging by setting environment variables:
+```bash
+export DEBUG=true
+go run main.go neo4j_loader.go rag_with_langchain.go web_ui.go
+```
