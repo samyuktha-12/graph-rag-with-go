@@ -206,4 +206,3 @@ graph-rag-with-go/
 - `POST /api/query` - Process natural language queries
 - `GET /api/status` - Check system status
 - `POST /api/load-data` - Load datasets into Neo4j
-
