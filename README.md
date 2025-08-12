@@ -6,16 +6,6 @@
 
 A **Retrieval-Augmented Generation (RAG)** system that combines **Neo4j Graph Database** with **LLM-powered natural language queries** to explore Marvel Comics character relationships and partnerships.
 
-## 🌟 Features
-
-- **🔍 LLM-Powered Query Generation** - Natural language to Cypher query conversion
-- **📊 Graph Database Integration** - Neo4j for storing Marvel character relationships
-- **🎨 Beautiful Web UI** - Dark theme interface similar to Claude
-- **🤖 Natural Language Responses** - Human-friendly explanations of graph results
-- **📱 Responsive Design** - Works on desktop and mobile devices
-- **⚡ Real-time Status Monitoring** - Database, LLM, and data loading status
-- **🔄 Smart Data Detection** - Automatically detects if data is already loaded
-
 ## 🏗️ Architecture
 
 ```
