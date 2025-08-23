@@ -63,8 +63,6 @@ func startWebUI() {
 
 	fmt.Println("🌐 Starting Web UI...")
 	fmt.Println("📱 Open your browser and go to: http://localhost:8080")
-	fmt.Println("🎨 Dark theme UI with Claude-like interface")
-	fmt.Println("🤖 LLM-powered Marvel Comics Knowledge Graph")
 	fmt.Println()
 
 	log.Fatal(http.ListenAndServe(":8080", nil))
