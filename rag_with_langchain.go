@@ -15,7 +15,7 @@ import (
 
 func startRAGChatbot() {
 	// Initialize Neo4j connection
-	driver, err := neo4j.NewDriver("bolt://localhost:7687", neo4j.BasicAuth("neo4j", "Samyuktha@12", ""))
+	driver, err := neo4j.NewDriver("bolt://localhost:7687", neo4j.BasicAuth("neo4j", "", ""))
 	if err != nil {
 		log.Fatalf("Failed to create Neo4j driver: %v", err)
 	}
